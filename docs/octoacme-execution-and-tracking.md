@@ -29,12 +29,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1: Team-level triage in daily standup.
+- Level 2: PM escalates to Product Lead and dependent teams; SRE/DevOps engaged for infrastructure or deployment blockers.
+- Level 3: Sponsor-level escalation for business-impacting issues; Release Manager notified for any release-blocking incidents.
 
 ## Execution Checklist
-- [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] Branching and PR conventions documented in repo.
+- [ ] CI configured for tests and lint.
+- [ ] Regular demos scheduled.
+- [ ] Risk register updated weekly.
+- [ ] SRE / DevOps pipeline health verified before each release.
+- [ ] Release Manager assigned and release window confirmed.
+- [ ] [Release Readiness Checklist](./checklists/release-readiness-checklist.md) completed and all role sign-offs collected before deploying to production.

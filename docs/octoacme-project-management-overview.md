@@ -14,11 +14,22 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- **Project Manager (PM):** coordinates delivery, schedules, risk, and communications.
+- **Product Manager (PdM):** defines outcomes, prioritizes backlog, and measures success.
+- **Developers:** implement features, collaborate on design and testability.
+- **QA / Testing:** validate quality and acceptance criteria.
+- **Stakeholders:** provide inputs and approvals at key decision gates.
+- **UX Designer:** advocates for user-centered design; owns wireframes, prototypes, and usability acceptance.
+- **SRE / DevOps:** owns CI/CD pipelines, infrastructure reliability, deployment, and incident response.
+- **Business Analyst (BA):** translates business needs into requirements and user stories.
+- **Data Scientist / Analyst:** defines success metrics, instruments features, and surfaces data-driven insights.
+- **Support / Customer Success:** surfaces customer feedback, ensures support readiness, and drives adoption.
+- **Security Lead:** embeds security across the lifecycle; owns threat modeling and security sign-off.
+- **Release Manager:** coordinates release windows, drives release readiness review, and approves go/no-go.
+- **Technical Lead:** sets technical direction, reviews architecture and code, and escalates technical risks.
+
+For full role descriptions see [Roles & Personas](./octoacme-roles-and-personas.md).
+For cross-role coordination see the [Role Interaction Matrix](./checklists/role-interaction-matrix.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
